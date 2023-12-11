@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    padding:20px;
+  }
+
+  .log{
+    position:absolute;
+    left: 1180px;
+    margin:0px;
+    color:black;
+  }
+  
+  .logo{
+    width:100px;
+    border-radius: 10%;
+  }
+  
+  .login{
+    width:60px;
+    height:60px;
+  }
+
+  .login:active{
+    transform: scale(.95);
+  }
+  
+  .title{
+    font-size:40px;
+    font-weight: 900;
+  }
+  
+  .principal{
+    background:#17202A;
+  }
+  
+  .reportCard{
+    display:flex;
+    margin:0px;
+    width:175px;
+    position:relative;
+    top:105px;
+    left:130px;
+  }
+ 
+
+  .news{
+    display:flex;
+    width:180px;
+    position:relative;
+    bottom:75px;
+    left:580px;
+    margin:0px;
+  }
+  
+  .tasks{
+    display:flex;
+    margin:0px;
+    width:180px;
+    position:relative;
+    left:1000px;
+    bottom:255px;
+  }
+  .RC{
+    position:absolute;
+    margin:0px;
+    top:500px;
+    left:160px;
+    color:white;
+  }
+  
+  .N{
+    position:absolute;
+    margin:0px;
+    bottom:30px;
+    left:630px;
+    bottom:150px;
+    color:white;
+  }
+  .T{
+    position:absolute;
+    margin:0px;
+    bottom:155px;
+    left:1035px;
+    color:white;
+    
+  }
+  
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    padding:30px;
+    }
+  .instagram{
+    width:75px;
+    margin:30px;
+  }
+  .facebook{
+    width:75px;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+  h1{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #05060a;
+  }
+
+ .window-background{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255,255, 0.3);
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+ }
+
+ .window-container{
+  position: relative;
+  background-color: #fff;
+  width: 550px;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  animation-name: modal;
+  animation-duration: .5s;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .4);
+  z-index: 10;
+  text-align: center;
+ }
+
+ @keyframes modal{
+   from{
+    transform: translateY(50vh)
+   }
+
+   to{
+    transform: translateY(0);
+   }
+ }
+
+.close{
+  transition: transform 1s cubic-bezier(0, -0.42, 1, -0.41);
+  transform: translateY(60vh);
+}
+.close-button{
+  position: absolute;
+  border-radius: 50%;
+  top: -15;
+  right: -15;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+ .icon-x{
+  fill: rgb(54,54,54)
+ }
+
+
+ 
+

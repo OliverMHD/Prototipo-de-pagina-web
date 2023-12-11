@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Configuración de la página -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Título de la página -->
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <!-- Logo del Instituto América -->
+    <img class="logo"
+      src="https://elpidiomora.weebly.com/uploads/2/4/7/9/24791668/5496729-orig_3_orig.jpg" alt="Logo of Instituto América">
+    <!-- Título del Instituto -->
+    <h1 class="title">Instituto América</h1>
+
+    <!-- Enlace al formulario  -->
+    <a href="formulario.html">
+      <!-- Icono de inicio de sesión -->
+      <img class="login" src="https://cdn-icons-png.flaticon.com/512/64/64572.png" alt="" id="login"
+        style="cursor: pointer;">
+    </a>
+
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main class="principal">
+    <!-- Sección para el botón del ReportCard -->
+    <div>
+      <!-- Imagen del ReportCard con un identificador 'report-card' y una función 'openbutton()' al hacer clic -->
+      <img class="reportCard" id="report-card" type="button" onclick="openbutton1()"
+        src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/6130452/report-card-clipart-md.png"
+        alt="reportCard" style="cursor: pointer;">
+      <!-- Título del ReportCard -->
+      <h2 class="RC">ReportCard</h2>
+    </div>
+
+    <!-- Ventana emergente para el ReportCard -->
+    <div class="window-background" id="window-background">
+      <div class="window-container" id="window-container">
+        <!-- Botón de cierre para la ventana emergente -->
+        <button class="close-button" id="close-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon-x">
+            <path
+              d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z">
+            </path>
+            <path
+              d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z">
+            </path>
+          </svg>
+        </button>
+        <!-- Contenido de la ventana emergente -->
+        <h1>🚧 Proximamente 🚧</h1>
+      </div>
+    </div>
+
+    <!-- Sección para el icono de News -->
+    <div>
+      <!-- Imagen para News -->
+      <img class="news"  id="news" type="button" onclick="openbutton2()"
+       src="https://cdn-icons-png.flaticon.com/512/2495/2495007.png" alt="News"
+        style="cursor: pointer;">
+    </div>
+    <!-- Título para News -->
+    <h2 class="N">News</h2>
+
+    <!-- Sección para el icono de Tasks -->
+    <div>
+      <!-- Imagen para Tasks con un identificador 'tasks' y una función 'openbutton()' al hacer clic -->
+      <img class="tasks" id="tasks" type="button" onclick="openbutton3()"
+        src="https://cdn-icons-png.flaticon.com/512/3789/3789946.png" alt="Tasks"
+        style="cursor: pointer;" onclick="">
+      <!-- Título para Tasks -->
+      <h2 class="T">Tasks</h2>
+    </div>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <!-- Icono de Instagram -->
+    <img class="instagram"
+      src="https://cdn.icon-icons.com/icons2/2997/PNG/512/instagram_logo_icon_187632.png" alt="Instagram">
+
+    <!-- Icono de Facebook -->
+    <img class="facebook"
+      src="https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png" alt="Facebook">
+
+    <!-- Texto de derechos de autor -->
+    <td class="copy" colspan="6"> &copy;2023 Todos los derechos reservados </td>
+
+    <!-- Enlaces de contacto, dirección y condiciones -->
+    <h5>Contactanos</h5>
+    <h5>Address</h5>
+    <h5>Conditions</h5>
+  </footer>
+
+  <!-- Inclusión del archivo JavaScript -->
+  <script src="javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Open sans;
+  }
+  
+  body {
+    background-image: url("https://i.ibb.co/YQZ7xpw/FONDO-DEL-INSTITUTO-AM-RICA-1.jpg"); ;
+    background-size: cover; 
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color:green;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px black;
+    border-radius: 20px;
+  }
+  .logo{
+    width:75px;
+    position:absolute;
+    border-radius:5px;
+  }
+  
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+  }
+  
+  input{
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:1px solid #d9d9d9;
+    padding-left:10px; 
+  }
+  
+  label{
+    margin-top:50px;
+    margin-bottom:10px;
+    font-weight:bold;
+    font-family: Helvetica;
+  }
+  
+  button{
+    margin-top:50px;
+    height:40px;
+    border-radius:5px;
+    border:1px solid #d6d6d6;
+    outline:none;
+    font-size:20px;
+    font-weight:bold;
+  }
+  
+  button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  
+  h1{
+    margin-top:5px;
+    position:relative;
+    left:180px;
+    
+  }
+  
+  h4{
+    text-align:right;
+    margin-top:10px;
+  }
+  
